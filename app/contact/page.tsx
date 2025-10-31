@@ -4,8 +4,12 @@ import { FormEvent, useState } from "react";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
+  const[status,setStatus]=useState('')
   function handleSubmit(event: FormEvent<HTMLFormElement>): void {
+    setStatus('sending')
     alert("تم ارسال ملاحظتك. سيقوم احد موظفينا بالتواصل معك")
+    setStatus('ok')
+
   }
 
   return (
