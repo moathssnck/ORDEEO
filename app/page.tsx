@@ -36,7 +36,7 @@ export default function Home() {
       </section>
       <footer className="mt-16 text-xs text-gray-400 dark:text-gray-600">
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-between max-w-5xl mx-auto">
-          <div>© {new Date().getFullYear()} اسم_الموقع_هنا. جميع الحقوق محفوظة.</div>
+          <div>© {new Date().getFullYear()}  جميع الحقوق محفوظة.</div>
           <div className="flex gap-3">
             <a href="/privacy" className="underline">سياسة الخصوصية</a>
             <a href="/terms" className="underline">الشروط والأحكام</a>
