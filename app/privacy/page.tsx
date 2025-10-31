@@ -20,7 +20,7 @@ export default function Privacy() {
         />
       </Head>
 
-      <main className="prose mx-auto p-6">
+      <main className="prose mx-auto p-6" dir="rtl">
         <h1>سياسة الخصوصية</h1>
 
         <p>تاريخ السريان: <strong>ادخل التاريخ هنا</strong></p>
