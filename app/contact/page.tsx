@@ -4,10 +4,9 @@ import { FormEvent, useState } from "react";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
-
-  
-    function handleSubmit(event: FormEvent<HTMLFormElement>): void {
-alert("تم ارسال ملاحظتك. سيقوم احد موظفينا بالتواصل معك")    }
+  function handleSubmit(event: FormEvent<HTMLFormElement>): void {
+    alert("تم ارسال ملاحظتك. سيقوم احد موظفينا بالتواصل معك")
+  }
 
   return (
     <>
@@ -16,7 +15,7 @@ alert("تم ارسال ملاحظتك. سيقوم احد موظفينا بالت
         <meta name="description" content="صفحة تواصل معنا" />
       </Head>
 
-      <main className="prose mx-auto p-6"dir="rtl">
+      <main className="prose mx-auto p-6" dir="rtl">
         <h1>تواصل معنا</h1>
         <p>اكتب رسالتك وسنرد في أقرب وقت ممكن.</p>
 
